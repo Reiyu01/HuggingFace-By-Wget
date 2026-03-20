@@ -93,19 +93,6 @@ python3 download_model.py
 
 ---
 
-## 背景執行（推薦）
-
-下載大模型時建議用 `nohup` 背景執行，終端機關掉也不影響：
-
-```bash
-nohup python3 download_model.py > download.log 2>&1 &
-
-# 監控進度
-tail -f download.log
-```
-
----
-
 ## 斷點續傳
 
 中途中斷後直接重跑即可，已下載完成的檔案會自動跳過，未完成的從中斷點繼續：
