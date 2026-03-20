@@ -4,7 +4,7 @@
 用法: python download_model.py
 
 環境變數（選填）:
-  HTTP_PROXY   - Proxy 位址，例如 http://your-proxy:3128
+  HTTP_PROXY   - Proxy 位址，例如 http://your-proxy:{Port}
   HTTPS_PROXY  - Proxy 位址
   SAVE_BASE    - 模型儲存根目錄，預設為當前目錄下的 models/
   HF_TOKEN     - HuggingFace Token（需要授權的模型才需要）
