@@ -24,8 +24,8 @@
 ## 安裝
 
 ```bash
-git clone https://github.com/你的帳號/你的repo名稱.git
-cd 你的repo名稱
+git clone https://github.com/Reiyu01/HuggingFace-By-Wget.git
+cd Huggingface-By-Wget
 ```
 
 ---
